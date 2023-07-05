@@ -1,0 +1,111 @@
+code {
+    color: #fff;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    border-radius: 6px;
+    clear: both;
+    *zoom: 1;
+    margin: 3% 9%;
+}
+section {
+    float: left;
+    width: 55%;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 30px;
+}
+h1{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 50px;
+}
+#hobies_h1{
+    padding-left: 0px;
+    margin-bottom: -40px;
+}
+#education_h1{
+    padding-left: 0px;
+}
+h5{
+    padding-top: 20px;
+    padding-bottom: -15px;
+}
+aside {
+    float: right;
+    width: 40%;
+}
+header{
+    background-image: url("nebo.jpg");
+    background-repeat:repeat;
+    width: 100%;
+    height: 130px;
+    margin-top: 50px;
+}
+#mesecina{
+    height: 180px;
+    padding-left: 60px;
+    margin-top: -25px;
+}
+.linkovi{
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 13px 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    color: black;
+    text-decoration: none;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: bold;
+
+}
+
+a:hover{
+    cursor: pointer;
+}
+a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+#najdesno{
+    margin-right: 90px;
+}
+.futer{
+    width: 100%;
+    height: 30px;
+    background: url("linija.jpg") 15px repeat-x;
+}
+footer{
+    padding-top: 30px;
+}
+p{
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("pozadina.jpg");
+    background-repeat: repeat;
+    background-size: 300px;
+}
+#hobies_section{
+    float: right;
+}
+#hobies_aside{
+    float: left;
+    margin-left: -15px;
+}
